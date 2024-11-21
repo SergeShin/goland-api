@@ -1,0 +1,20 @@
+### GET request to example server
+GET http://localhost:8080/todo
+Content-Type: application/json
+
+### POST request to add a todo
+POST http://localhost:8080/todo
+
+{
+"item": "go for a walk"
+}
+
+### GET request to search todos
+GET http://localhost:8080/search?q=Shop
+
+### DELETE request to remove a todo
+DELETE http://localhost:8080/todo
+
+{
+"item": "clean apartment"
+}
