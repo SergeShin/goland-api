@@ -1,10 +1,10 @@
 package main
 
 import (
+	"github.com/SergeShin/goland-api/internal/db"
+	"github.com/SergeShin/goland-api/internal/todo"
+	"github.com/SergeShin/goland-api/internal/transport"
 	"log"
-	"my-first-api/internal/db"
-	"my-first-api/internal/todo"
-	"my-first-api/internal/transport"
 )
 
 func main() {
